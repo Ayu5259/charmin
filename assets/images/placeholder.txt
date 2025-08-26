@@ -1,0 +1,29 @@
+# Product Images
+
+This folder contains product images for the Charmin e-commerce website.
+
+## Sample Product Images (for demonstration)
+
+Replace these with your actual product images:
+
+1. bag-classic.jpg - کیف چرمی کلاسیک
+2. set-men.jpg -  ست مردانه
+3. wallet.jpg - کیف پول چرمی
+4. handbag-women.jpg - کیف دستی زنانه
+5. laptop-bag.jpg - کیف لپ‌تاپ چرمی
+6. backpack.jpg - کیف کوله‌پشتی چرمی
+
+## Image Requirements
+
+- Format: JPG, PNG, or GIF
+- Size: Square format (e.g., 400x400px) for best display
+- Quality: High quality for professional appearance
+- Naming: Use descriptive names in English or Persian
+
+## Upload Instructions
+
+1. Upload your product images to this folder
+2. Update the image paths in the database or admin panel
+3. Ensure images are optimized for web (compressed but high quality)
+
+The website will use placeholder images from Pexels if product images are not found.

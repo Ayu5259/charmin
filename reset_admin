@@ -1,0 +1,8 @@
+<?php
+require_once 'config/database.php';
+
+$newPassword = password_hash('admin123', PASSWORD_DEFAULT);
+$stmt = $pdo->prepare("UPDATE users SET password = ? WHERE role = 'admin'");
+$stmt->execute([$newPassword]);
+
+echo "رمز عبور ادمین با موفقیت به admin123 تغییر یافت.";
